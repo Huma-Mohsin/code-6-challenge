@@ -1,0 +1,32 @@
+// The filter method can be used with string arrays to selectively keep or remove elements based on a specified condition. Below are a few examples of using the filter method with a string array:
+
+// Example 1: Keep strings with a length greater than 3:
+
+// let strings: string[] = ["apple", "banana", "orange", "kiwi", "grape"];
+// let filteredStrings: string[] = strings.filter(str => str.length > 3);
+// console.log(filteredStrings);
+// // Output: ["apple", "banana", "orange", "grape"]
+//-----------------------------------------------------------------
+// Example 2: Keep strings that contain the letter "a":
+
+// let strings: string[] = ["apple", "banana", "orange", "kiwi", "grape"];
+// let filteredStrings: string[] = strings.filter(str => str.includes("a"));
+// console.log(filteredStrings);
+// // Output: ["apple", "banana", "orange", "grape"]
+
+//---------------------------------------------------------------
+// Example 3: Keep strings that start with the letter "o":
+
+// let strings: string[] = ["apple", "banana", "orange", "kiwi", "grape"];
+// let filteredStrings: string[] = strings.filter(str => str.startsWith("o"));
+// console.log(filteredStrings);
+// // Output: ["orange"]
+//---------------------------------------------------------------------
+
+// Example 4: Keep strings that do not contain the letter "i":
+
+// let strings: string[] = ["apple", "banana", "orange", "kiwi", "grape"];
+// let filteredStrings: string[] = strings.filter(str => !str.includes("i"));
+// console.log(filteredStrings);
+// // Output: ["kiwi", "grape"]
+//-------------------------------------------------------------------------

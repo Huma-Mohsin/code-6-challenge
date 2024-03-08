@@ -1,0 +1,26 @@
+In TypeScript, shrinking an array typically refers to reducing its length or removing elements from it. Here are several ways you can achieve this:
+
+1. Using splice method:
+The splice method can be used to remove elements from an array by specifying the starting index and the number of elements to remove.
+
+
+2. Using slice method:
+The slice method can be used to create a new array containing a portion of the original array. This effectively shrinks the array.
+
+
+3. Using pop method:
+The pop method removes the last element from an array, effectively reducing its length.
+
+
+4. Using length property:
+You can directly manipulate the length property of the array to truncate it.
+
+
+5. Using filter method:
+The filter method can be used to create a new array containing only the elements that meet a certain condition, effectively removing unwanted elements.
+
+
+
+
+
+

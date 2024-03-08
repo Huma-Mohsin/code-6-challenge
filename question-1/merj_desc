@@ -1,0 +1,52 @@
+// //merge arrays
+// Refernce study.
+
+// You can merge two arrays in TypeScript using several different approaches. Here are a few common methods:
+
+// 1. Using the Spread Operator (...):
+
+// let array1: number[] = [1, 2, 3];
+// let array2: number[] = [4, 5, 6];
+
+// let mergedArray: number[] = [...array1, ...array2];
+// console.log(mergedArray);
+// // Output: [1, 2, 3, 4, 5, 6]
+// -------------------------------------------------------------------------------------------
+// 2. Using the concat Method:
+
+// let array1: number[] = [1, 2, 3];
+// let array2: number[] = [4, 5, 6];
+
+// let mergedArray: number[] = array1.concat(array2);
+// console.log(mergedArray);
+// // Output: [1, 2, 3, 4, 5, 6]
+// ------------------------------------------------------------------------------------------
+
+// 3. Using the push Method (modifies the original array):
+
+// let array1: number[] = [1, 2, 3];
+// let array2: number[] = [4, 5, 6];
+
+// array1.push(...array2);
+// console.log(array1);
+// // Output: [1, 2, 3, 4, 5, 6]
+// ------------------------------------------------------------------------------------------
+// 4. Using the slice and push Methods (creates a new array):
+
+// let array1: number[] = [1, 2, 3];
+// let array2: number[] = [4, 5, 6];
+
+// let mergedArray: number[] = array1.slice();
+// mergedArray.push(...array2);
+// console.log(mergedArray);
+// // Output: [1, 2, 3, 4, 5, 6]
+// -------------------------------------------------------------------------------------------
+// 5. Using the Array.from Method:
+
+// let array1: number[] = [1, 2, 3];
+// let array2: number[] = [4, 5, 6];
+
+// let mergedArray: number[] = Array.from(array1).concat(array2);
+// console.log(mergedArray);
+// // Output: [1, 2, 3, 4, 5, 6]
+// --------------------------------------------------------------------------------------
